@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+
+}
+
+/* Styele the header */
+header{
+    background:linear-gradient(#2D4ABB,#ca5dc1);
+    width: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+         
+}
+
+/* Define the flex properties for the header div container */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.section-two{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+/* Position elements in the upper section div(.section-one) */
+
+
+.image-container{
+    margin-left: 2em;
+
+    float: left;
+    
+   
+}
+
+.nav-container{
+    float: right;
+    margin-right: 2em;
+}
+
+/* Define the display for the links*/
+.nav-container nav>ul>li {
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+    
+/* Decorate the links*/
+.nav-container nav>ul>li a {
+   color:white;
+   text-decoration: none;
+   display: block;
+   padding: 1em;
+}
+/* Style Section 2 */
+
+
+
+
+.header-image{
+    float: left;
+    margin-top: 1px;
+    
+}
+.header-image img{
+    float: left;
+    width: 45%;
+    height: auto;
+    margin-left: 2em;
+    
+    
+}
+
+
+.site-description{
+    float: right;
+    margin-top: 1px;
+    margin-right: 2em;
+    width: auto;
+}
+.site-description h1{
+   font-size: 30px;
+   color: white;
+   line-height: 1.5;
+}
+
+.site-description p{
+    font-size: 15px;
+    color: white;
+    line-height: 1.5;
+ }
+
+
+ .talk{
+     display: inline;
+     padding: 0px;
+     margin: 0px;
+     justify-content: space-around ;
+ }
+.talk  a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.main{
+    background-color: inherit;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 5em;
+    margin-bottom: 2em;
+
+}
+
+.about-agency{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.agency-text{
+float: left;
+width: auto;
+margin: 1em;
+
+
+}
+
+.aboutImageContainer{
+    
+    float: right;
+}
+
+.aboutImageContainer img{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-right: 2em;
+}
+
+.agency-text li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.agency-text span{
+    color:lightseagreen;
+    
+    }
+
+
+footer{
+    width: 100%;
+    
+}
+.footer{
+    background-color: rgb(168, 21, 102);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 25px;
+    margin: 25px;
+}
